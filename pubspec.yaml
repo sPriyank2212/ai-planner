@@ -46,6 +46,7 @@ dependencies:
   googleapis: ^13.2.0
   extension_google_sign_in_as_googleapis_auth: ^2.0.13
   timezone: ^0.9.4
+  google_generative_ai: ^0.4.7
 
 dev_dependencies:
   flutter_test:

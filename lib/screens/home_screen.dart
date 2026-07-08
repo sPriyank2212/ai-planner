@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'ai_assistant_screen.dart';
 import 'calendar_screen.dart';
 import 'calendar_sync_screen.dart';
+import 'settings_screen.dart';
 import 'tasks_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -19,6 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
     CalendarScreen(),
     AIAssistantScreen(),
     CalendarSyncScreen(),
+    SettingsScreen(),
   ];
 
   @override
@@ -55,6 +57,11 @@ class _HomeScreenState extends State<HomeScreen> {
             icon: Icon(Icons.sync_outlined),
             selectedIcon: Icon(Icons.sync),
             label: 'Sync',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.settings_outlined),
+            selectedIcon: Icon(Icons.settings),
+            label: 'Settings',
           ),
         ],
       ),

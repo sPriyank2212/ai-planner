@@ -6,7 +6,7 @@ A cross-platform personal planner assistant built with Flutter. Runs on **Window
 
 - ✅ **Tasks** — Create, complete, prioritize, and delete tasks with due dates
 - 📅 **Calendar** — Visual monthly calendar with task markers and daily task lists
-- 🤖 **AI Assistant** — Built-in planner assistant that suggests priorities, generates daily plans, and answers task-related questions
+- 🤖 **AI Assistant** — Built-in planner assistant powered by Gemini (or offline mock mode)
 - 📲 **Calendar Sync** — Import events from Google Calendar, Outlook, or Apple Calendar into tasks
 - 💾 **Local Persistence** — Tasks are saved locally using `shared_preferences`
 - 🌓 **Light/Dark Theme** — Follows system theme automatically
@@ -84,6 +84,22 @@ lib/
 └── widgets/
     └── add_task_dialog.dart  # Add/edit task dialog
 ```
+
+## Gemini AI Setup
+
+The AI assistant can run in two modes:
+
+1. **Offline mode** — Built-in mock responses (no API key needed)
+2. **Gemini mode** — Uses Google's Gemini 1.5 Flash model (free tier: 1,500 requests/day)
+
+To enable Gemini:
+
+1. Go to https://aistudio.google.com/app/apikey
+2. Create a free API key
+3. Open the app → **Settings** tab
+4. Paste your API key and tap **Save API Key**
+
+Your API key is stored locally on your device only.
 
 ## Calendar Sync
 
