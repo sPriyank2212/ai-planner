@@ -17,6 +17,8 @@ A cross-platform personal planner assistant built with Flutter. Runs on **Window
 
 ## Getting Started
 
+See **[SETUP.md](SETUP.md)** for complete step-by-step instructions on cloning, running, configuring AI, building APKs, and troubleshooting.
+
 ### 1. Prerequisites
 
 - Flutter SDK installed and in your `PATH`
